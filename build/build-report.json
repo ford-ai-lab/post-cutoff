@@ -1,0 +1,2192 @@
+{
+ "built": "2026-11-25",
+ "cutoff": "2025-06-01",
+ "packages": [
+  {
+   "name": "react",
+   "latest": "19.3.1",
+   "after": 31,
+   "releases_read": 24,
+   "with_items": 11,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 44
+   },
+   "shown": 18,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/react.md",
+   "bytes": 3034,
+   "untraced_dropped": 0,
+   "items": 44
+  },
+  {
+   "name": "next",
+   "latest": "16.4.6",
+   "after": 113,
+   "releases_read": 1,
+   "with_items": 1,
+   "counts": {
+    "breaking": 60,
+    "removed": 15,
+    "deprecated": 4,
+    "minver": 4,
+    "new": 0
+   },
+   "shown": 28,
+   "problems": [
+    "github_releases vercel/next.js: HTTP 403 cached"
+   ],
+   "usable": true,
+   "majors": [
+    [
+     "16.0.0",
+     "2025-10-22"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/next.md",
+   "bytes": 4216,
+   "untraced_dropped": 1,
+   "items": 83
+  },
+  {
+   "name": "vite",
+   "latest": "8.3.8",
+   "after": 87,
+   "releases_read": 64,
+   "with_items": 26,
+   "counts": {
+    "breaking": 14,
+    "removed": 0,
+    "deprecated": 6,
+    "minver": 1,
+    "new": 129
+   },
+   "shown": 39,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "7.0.0",
+     "2025-06-24"
+    ],
+    [
+     "8.0.0",
+     "2026-03-12"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/vite.md",
+   "bytes": 3907,
+   "untraced_dropped": 0,
+   "items": 150
+  },
+  {
+   "name": "typescript",
+   "latest": "7.0.2",
+   "after": 5,
+   "releases_read": 2,
+   "with_items": 2,
+   "counts": {
+    "breaking": 21,
+    "removed": 0,
+    "deprecated": 29,
+    "minver": 0,
+    "new": 18
+   },
+   "shown": 37,
+   "problems": [
+    "github_releases microsoft/TypeScript: HTTP 403 cached"
+   ],
+   "usable": true,
+   "majors": [
+    [
+     "6.0.2",
+     "2026-03-23"
+    ],
+    [
+     "7.0.2",
+     "2026-07-08"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/typescript.md",
+   "bytes": 7535,
+   "untraced_dropped": 0,
+   "items": 68
+  },
+  {
+   "name": "eslint",
+   "latest": "10.15.0",
+   "after": 40,
+   "releases_read": 40,
+   "with_items": 28,
+   "counts": {
+    "breaking": 21,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 2,
+    "new": 83
+   },
+   "shown": 32,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "10.0.0",
+     "2026-02-06"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/eslint.md",
+   "bytes": 4424,
+   "untraced_dropped": 0,
+   "items": 106
+  },
+  {
+   "name": "tailwindcss",
+   "latest": "4.3.5",
+   "after": 23,
+   "releases_read": 23,
+   "with_items": 6,
+   "counts": {
+    "breaking": 0,
+    "removed": 3,
+    "deprecated": 1,
+    "minver": 0,
+    "new": 21
+   },
+   "shown": 22,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/tailwindcss.md",
+   "bytes": 3369,
+   "untraced_dropped": 0,
+   "items": 25
+  },
+  {
+   "name": "express",
+   "latest": "5.3.0",
+   "after": 7,
+   "releases_read": 3,
+   "with_items": 3,
+   "counts": {
+    "breaking": 1,
+    "removed": 0,
+    "deprecated": 1,
+    "minver": 0,
+    "new": 1
+   },
+   "shown": 3,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/express.md",
+   "bytes": 1623,
+   "untraced_dropped": 0,
+   "items": 3
+  },
+  {
+   "name": "zod",
+   "latest": "4.6.7",
+   "after": 88,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [
+    "github_releases colinhacks/zod: HTTP 403 cached"
+   ],
+   "usable": false,
+   "majors": [
+    [
+     "4.0.0",
+     "2025-07-09"
+    ]
+   ],
+   "status": "source unreachable",
+   "ecosystem": "npm",
+   "file": "references/zod.md",
+   "bytes": 746,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "prisma",
+   "latest": "7.10.1",
+   "after": 36,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [
+    "github_releases prisma/prisma: HTTP 403 cached"
+   ],
+   "usable": false,
+   "majors": [
+    [
+     "7.0.0",
+     "2025-11-19"
+    ]
+   ],
+   "status": "source unreachable",
+   "ecosystem": "npm",
+   "file": "references/prisma.md",
+   "bytes": 746,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "vitest",
+   "latest": "5.1.2",
+   "after": 49,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [
+    "github_releases vitest-dev/vitest: HTTP 403 cached"
+   ],
+   "usable": false,
+   "majors": [
+    [
+     "4.0.0",
+     "2025-10-22"
+    ],
+    [
+     "5.0.0",
+     "2026-09-03"
+    ]
+   ],
+   "status": "source unreachable",
+   "ecosystem": "npm",
+   "file": "references/vitest.md",
+   "bytes": 776,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "playwright",
+   "latest": "1.65.1",
+   "after": 26,
+   "releases_read": 13,
+   "with_items": 13,
+   "counts": {
+    "breaking": 30,
+    "removed": 1,
+    "deprecated": 2,
+    "minver": 0,
+    "new": 78
+   },
+   "shown": 45,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/playwright.md",
+   "bytes": 9450,
+   "untraced_dropped": 0,
+   "items": 111
+  },
+  {
+   "name": "axios",
+   "latest": "1.21.1",
+   "after": 36,
+   "releases_read": 22,
+   "with_items": 13,
+   "counts": {
+    "breaking": 1,
+    "removed": 0,
+    "deprecated": 1,
+    "minver": 0,
+    "new": 28
+   },
+   "shown": 20,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/axios.md",
+   "bytes": 5020,
+   "untraced_dropped": 0,
+   "items": 30
+  },
+  {
+   "name": "vue",
+   "latest": "3.5.46",
+   "after": 30,
+   "releases_read": 30,
+   "with_items": 1,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 1
+   },
+   "shown": 1,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/vue.md",
+   "bytes": 951,
+   "untraced_dropped": 0,
+   "items": 1
+  },
+  {
+   "name": "svelte",
+   "latest": "5.59.2",
+   "after": 184,
+   "releases_read": 184,
+   "with_items": 26,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 31
+   },
+   "shown": 18,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/svelte.md",
+   "bytes": 3416,
+   "untraced_dropped": 0,
+   "items": 31
+  },
+  {
+   "name": "@sveltejs/kit",
+   "latest": "3.4.0",
+   "after": 137,
+   "releases_read": 136,
+   "with_items": 54,
+   "counts": {
+    "breaking": 83,
+    "removed": 0,
+    "deprecated": 4,
+    "minver": 2,
+    "new": 101
+   },
+   "shown": 47,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "3.0.0",
+     "2026-10-01"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/sveltejs__kit.md",
+   "bytes": 6759,
+   "untraced_dropped": 0,
+   "items": 190
+  },
+  {
+   "name": "astro",
+   "latest": "7.4.13",
+   "after": 169,
+   "releases_read": 51,
+   "with_items": 6,
+   "counts": {
+    "breaking": 8,
+    "removed": 3,
+    "deprecated": 0,
+    "minver": 2,
+    "new": 28
+   },
+   "shown": 31,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "6.0.0",
+     "2026-03-10"
+    ],
+    [
+     "7.0.0",
+     "2026-06-22"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/astro.md",
+   "bytes": 4696,
+   "untraced_dropped": 0,
+   "items": 41
+  },
+  {
+   "name": "webpack",
+   "latest": "5.113.0",
+   "after": 41,
+   "releases_read": 31,
+   "with_items": 10,
+   "counts": {
+    "breaking": 0,
+    "removed": 5,
+    "deprecated": 4,
+    "minver": 0,
+    "new": 234
+   },
+   "shown": 27,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/webpack.md",
+   "bytes": 4955,
+   "untraced_dropped": 0,
+   "items": 243
+  },
+  {
+   "name": "rollup",
+   "latest": "4.68.8",
+   "after": 95,
+   "releases_read": 93,
+   "with_items": 26,
+   "counts": {
+    "breaking": 0,
+    "removed": 1,
+    "deprecated": 1,
+    "minver": 0,
+    "new": 30
+   },
+   "shown": 20,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/rollup.md",
+   "bytes": 4177,
+   "untraced_dropped": 0,
+   "items": 32
+  },
+  {
+   "name": "esbuild",
+   "latest": "0.28.2",
+   "after": 18,
+   "releases_read": 7,
+   "with_items": 4,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 6
+   },
+   "shown": 6,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/esbuild.md",
+   "bytes": 1453,
+   "untraced_dropped": 0,
+   "items": 6
+  },
+  {
+   "name": "jest",
+   "latest": "30.5.2",
+   "after": 18,
+   "releases_read": 18,
+   "with_items": 12,
+   "counts": {
+    "breaking": 28,
+    "removed": 2,
+    "deprecated": 1,
+    "minver": 5,
+    "new": 86
+   },
+   "shown": 38,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "30.0.0",
+     "2025-06-10"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/jest.md",
+   "bytes": 6277,
+   "untraced_dropped": 0,
+   "items": 122
+  },
+  {
+   "name": "prettier",
+   "latest": "3.10.1",
+   "after": 27,
+   "releases_read": 26,
+   "with_items": 2,
+   "counts": {
+    "breaking": 0,
+    "removed": 1,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 3
+   },
+   "shown": 4,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/prettier.md",
+   "bytes": 1302,
+   "untraced_dropped": 0,
+   "items": 4
+  },
+  {
+   "name": "@tanstack/react-query",
+   "latest": "5.108.4",
+   "after": 138,
+   "releases_read": 88,
+   "with_items": 3,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 3
+   },
+   "shown": 3,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/tanstack__react-query.md",
+   "bytes": 1481,
+   "untraced_dropped": 0,
+   "items": 3
+  },
+  {
+   "name": "react-router",
+   "latest": "8.5.3",
+   "after": 52,
+   "releases_read": 40,
+   "with_items": 17,
+   "counts": {
+    "breaking": 18,
+    "removed": 8,
+    "deprecated": 8,
+    "minver": 1,
+    "new": 20
+   },
+   "shown": 53,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "8.0.0",
+     "2026-06-17"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/react-router.md",
+   "bytes": 10366,
+   "untraced_dropped": 0,
+   "items": 55
+  },
+  {
+   "name": "ai",
+   "latest": "7.0.181",
+   "after": 789,
+   "releases_read": 335,
+   "with_items": 3,
+   "counts": {
+    "breaking": 103,
+    "removed": 2,
+    "deprecated": 0,
+    "minver": 1,
+    "new": 5
+   },
+   "shown": 32,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "5.0.0",
+     "2025-07-31"
+    ],
+    [
+     "6.0.0",
+     "2025-12-22"
+    ],
+    [
+     "7.0.0",
+     "2026-06-25"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/ai.md",
+   "bytes": 3826,
+   "untraced_dropped": 0,
+   "items": 111
+  },
+  {
+   "name": "openai",
+   "latest": "7.64.0",
+   "after": 161,
+   "releases_read": 170,
+   "with_items": 138,
+   "counts": {
+    "breaking": 5,
+    "removed": 0,
+    "deprecated": 1,
+    "minver": 1,
+    "new": 250
+   },
+   "shown": 25,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "6.0.0",
+     "2025-09-30"
+    ],
+    [
+     "7.0.0",
+     "2026-07-27"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/openai.md",
+   "bytes": 4697,
+   "untraced_dropped": 0,
+   "items": 257
+  },
+  {
+   "name": "@anthropic-ai/sdk",
+   "latest": "1.14.0",
+   "after": 122,
+   "releases_read": 124,
+   "with_items": 100,
+   "counts": {
+    "breaking": 6,
+    "removed": 1,
+    "deprecated": 4,
+    "minver": 0,
+    "new": 202
+   },
+   "shown": 29,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "1.0.0",
+     "2026-10-21"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/anthropic-ai__sdk.md",
+   "bytes": 5168,
+   "untraced_dropped": 0,
+   "items": 213
+  },
+  {
+   "name": "storybook",
+   "latest": "10.6.9",
+   "after": 120,
+   "releases_read": 106,
+   "with_items": 40,
+   "counts": {
+    "breaking": 2,
+    "removed": 3,
+    "deprecated": 6,
+    "minver": 0,
+    "new": 154
+   },
+   "shown": 29,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "10.0.0",
+     "2025-10-28"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/storybook.md",
+   "bytes": 3892,
+   "untraced_dropped": 0,
+   "items": 165
+  },
+  {
+   "name": "mongoose",
+   "latest": "9.13.1",
+   "after": 109,
+   "releases_read": 99,
+   "with_items": 30,
+   "counts": {
+    "breaking": 18,
+    "removed": 0,
+    "deprecated": 2,
+    "minver": 0,
+    "new": 57
+   },
+   "shown": 32,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "9.0.0",
+     "2025-11-21"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/mongoose.md",
+   "bytes": 5163,
+   "untraced_dropped": 0,
+   "items": 77
+  },
+  {
+   "name": "puppeteer",
+   "latest": "25.19.0",
+   "after": 85,
+   "releases_read": 85,
+   "with_items": 25,
+   "counts": {
+    "breaking": 4,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 24
+   },
+   "shown": 22,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "25.0.0",
+     "2026-05-12"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/puppeteer.md",
+   "bytes": 4156,
+   "untraced_dropped": 0,
+   "items": 28
+  },
+  {
+   "name": "typescript-eslint",
+   "latest": "8.74.0",
+   "after": 70,
+   "releases_read": 70,
+   "with_items": 41,
+   "counts": {
+    "breaking": 0,
+    "removed": 1,
+    "deprecated": 5,
+    "minver": 0,
+    "new": 69
+   },
+   "shown": 24,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/typescript-eslint.md",
+   "bytes": 4365,
+   "untraced_dropped": 0,
+   "items": 75
+  },
+  {
+   "name": "@biomejs/biome",
+   "latest": "2.6.9",
+   "after": 78,
+   "releases_read": 65,
+   "with_items": 6,
+   "counts": {
+    "breaking": 1,
+    "removed": 16,
+    "deprecated": 4,
+    "minver": 0,
+    "new": 187
+   },
+   "shown": 32,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "2.0.0",
+     "2025-06-17"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/biomejs__biome.md",
+   "bytes": 6143,
+   "untraced_dropped": 0,
+   "items": 208
+  },
+  {
+   "name": "commander",
+   "latest": "15.1.0",
+   "after": 5,
+   "releases_read": 5,
+   "with_items": 3,
+   "counts": {
+    "breaking": 4,
+    "removed": 0,
+    "deprecated": 4,
+    "minver": 1,
+    "new": 2
+   },
+   "shown": 11,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "15.0.0",
+     "2026-05-29"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/commander.md",
+   "bytes": 2330,
+   "untraced_dropped": 0,
+   "items": 11
+  },
+  {
+   "name": "stripe",
+   "latest": "23.2.0",
+   "after": 42,
+   "releases_read": 42,
+   "with_items": 14,
+   "counts": {
+    "breaking": 112,
+    "removed": 7,
+    "deprecated": 5,
+    "minver": 4,
+    "new": 0
+   },
+   "shown": 40,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "19.0.0",
+     "2025-09-30"
+    ],
+    [
+     "20.0.0",
+     "2025-11-18"
+    ],
+    [
+     "21.0.0",
+     "2026-03-26"
+    ],
+    [
+     "22.0.0",
+     "2026-04-03"
+    ],
+    [
+     "23.0.0",
+     "2026-10-01"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/stripe.md",
+   "bytes": 6833,
+   "untraced_dropped": 0,
+   "items": 128
+  },
+  {
+   "name": "@angular/core",
+   "latest": "22.3.0",
+   "after": 139,
+   "releases_read": 138,
+   "with_items": 25,
+   "counts": {
+    "breaking": 60,
+    "removed": 0,
+    "deprecated": 370,
+    "minver": 2,
+    "new": 93
+   },
+   "shown": 56,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "21.0.0",
+     "2025-11-19"
+    ],
+    [
+     "22.0.0",
+     "2026-06-03"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/angular__core.md",
+   "bytes": 6404,
+   "untraced_dropped": 0,
+   "items": 525
+  },
+  {
+   "name": "postcss",
+   "latest": "8.5.33",
+   "after": 29,
+   "releases_read": 29,
+   "with_items": 2,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 1,
+    "minver": 0,
+    "new": 1
+   },
+   "shown": 2,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/postcss.md",
+   "bytes": 1061,
+   "untraced_dropped": 0,
+   "items": 2
+  },
+  {
+   "name": "wrangler",
+   "latest": "4.168.0",
+   "after": 218,
+   "releases_read": 210,
+   "with_items": 150,
+   "counts": {
+    "breaking": 0,
+    "removed": 15,
+    "deprecated": 7,
+    "minver": 0,
+    "new": 392
+   },
+   "shown": 39,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/wrangler.md",
+   "bytes": 8155,
+   "untraced_dropped": 0,
+   "items": 414
+  },
+  {
+   "name": "langchain",
+   "latest": "1.6.8",
+   "after": 104,
+   "releases_read": 98,
+   "with_items": 6,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 8
+   },
+   "shown": 8,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/langchain.md",
+   "bytes": 2088,
+   "untraced_dropped": 0,
+   "items": 8
+  },
+  {
+   "name": "@langchain/core",
+   "latest": "1.5.1",
+   "after": 113,
+   "releases_read": 96,
+   "with_items": 7,
+   "counts": {
+    "breaking": 6,
+    "removed": 0,
+    "deprecated": 2,
+    "minver": 0,
+    "new": 11
+   },
+   "shown": 19,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "1.0.0",
+     "2025-10-17"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/langchain__core.md",
+   "bytes": 3689,
+   "untraced_dropped": 0,
+   "items": 19
+  },
+  {
+   "name": "@supabase/supabase-js",
+   "latest": "2.119.2",
+   "after": 123,
+   "releases_read": 93,
+   "with_items": 20,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 1,
+    "minver": 1,
+    "new": 24
+   },
+   "shown": 20,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/supabase__supabase-js.md",
+   "bytes": 4600,
+   "untraced_dropped": 0,
+   "items": 26
+  },
+  {
+   "name": "drizzle-orm",
+   "latest": "0.45.4",
+   "after": 11,
+   "releases_read": 11,
+   "with_items": 5,
+   "counts": {
+    "breaking": 1,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 4
+   },
+   "shown": 5,
+   "problems": [
+    "github_releases drizzle-team/drizzle-orm: HTTP 403 cached"
+   ],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "npm",
+   "file": "references/drizzle-orm.md",
+   "bytes": 1782,
+   "untraced_dropped": 0,
+   "items": 5
+  },
+  {
+   "name": "hono",
+   "latest": "4.13.22",
+   "after": 104,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [
+    "github_releases honojs/hono: HTTP 403 cached"
+   ],
+   "usable": false,
+   "majors": [],
+   "status": "source unreachable",
+   "ecosystem": "npm",
+   "file": "references/hono.md",
+   "bytes": 681,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "pandas",
+   "latest": "3.1.1",
+   "after": 12,
+   "releases_read": 12,
+   "with_items": 7,
+   "counts": {
+    "breaking": 69,
+    "removed": 127,
+    "deprecated": 121,
+    "minver": 5,
+    "new": 131
+   },
+   "shown": 67,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "3.0.0",
+     "2026-01-21"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pandas.md",
+   "bytes": 12601,
+   "untraced_dropped": 0,
+   "items": 453
+  },
+  {
+   "name": "numpy",
+   "latest": "2.5.5",
+   "after": 18,
+   "releases_read": 18,
+   "with_items": 4,
+   "counts": {
+    "breaking": 11,
+    "removed": 42,
+    "deprecated": 18,
+    "minver": 3,
+    "new": 17
+   },
+   "shown": 54,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/numpy.md",
+   "bytes": 9181,
+   "untraced_dropped": 0,
+   "items": 91
+  },
+  {
+   "name": "pydantic",
+   "latest": "2.14.4",
+   "after": 26,
+   "releases_read": 23,
+   "with_items": 7,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 2,
+    "minver": 1,
+    "new": 14
+   },
+   "shown": 17,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pydantic.md",
+   "bytes": 3336,
+   "untraced_dropped": 0,
+   "items": 17
+  },
+  {
+   "name": "fastapi",
+   "latest": "0.165.0",
+   "after": 150,
+   "releases_read": 151,
+   "with_items": 49,
+   "counts": {
+    "breaking": 22,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 3,
+    "new": 46
+   },
+   "shown": 43,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/fastapi.md",
+   "bytes": 8916,
+   "untraced_dropped": 0,
+   "items": 71
+  },
+  {
+   "name": "django",
+   "latest": "6.1.3",
+   "after": 48,
+   "releases_read": 48,
+   "with_items": 2,
+   "counts": {
+    "breaking": 59,
+    "removed": 34,
+    "deprecated": 12,
+    "minver": 5,
+    "new": 113
+   },
+   "shown": 70,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "6.0",
+     "2025-12-03"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/django.md",
+   "bytes": 10961,
+   "untraced_dropped": 0,
+   "items": 223
+  },
+  {
+   "name": "sqlalchemy",
+   "latest": "2.1.9",
+   "after": 27,
+   "releases_read": 27,
+   "with_items": 13,
+   "counts": {
+    "breaking": 0,
+    "removed": 1,
+    "deprecated": 3,
+    "minver": 0,
+    "new": 19
+   },
+   "shown": 22,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/sqlalchemy.md",
+   "bytes": 7573,
+   "untraced_dropped": 0,
+   "items": 23
+  },
+  {
+   "name": "httpx",
+   "latest": "0.28.1",
+   "after": 0,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [],
+   "usable": false,
+   "majors": [],
+   "status": "no stable release after cut-off",
+   "ecosystem": "pypi",
+   "file": "references/httpx.md",
+   "bytes": 495,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "pytest",
+   "latest": "9.2.0",
+   "after": 10,
+   "releases_read": 10,
+   "with_items": 4,
+   "counts": {
+    "breaking": 13,
+    "removed": 16,
+    "deprecated": 2,
+    "minver": 2,
+    "new": 96
+   },
+   "shown": 49,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "9.0.0",
+     "2025-11-08"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pytest.md",
+   "bytes": 9312,
+   "untraced_dropped": 0,
+   "items": 129
+  },
+  {
+   "name": "ruff",
+   "latest": "0.17.6",
+   "after": 73,
+   "releases_read": 7,
+   "with_items": 1,
+   "counts": {
+    "breaking": 10,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 10,
+   "problems": [
+    "github_releases astral-sh/ruff: HTTP 403 cached"
+   ],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/ruff.md",
+   "bytes": 1655,
+   "untraced_dropped": 0,
+   "items": 10
+  },
+  {
+   "name": "uv",
+   "latest": "0.13.10",
+   "after": 152,
+   "releases_read": 11,
+   "with_items": 8,
+   "counts": {
+    "breaking": 10,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 1,
+    "new": 22
+   },
+   "shown": 29,
+   "problems": [
+    "github_releases astral-sh/uv: HTTP 403 cached"
+   ],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/uv.md",
+   "bytes": 3934,
+   "untraced_dropped": 0,
+   "items": 33
+  },
+  {
+   "name": "langchain",
+   "latest": "1.5.2",
+   "after": 68,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [
+    "github_releases langchain-ai/langchain: HTTP 403 cached"
+   ],
+   "usable": false,
+   "majors": [
+    [
+     "1.0.0",
+     "2025-10-17"
+    ]
+   ],
+   "status": "source unreachable",
+   "ecosystem": "pypi",
+   "file": "references/langchain.md",
+   "bytes": 777,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "openai",
+   "latest": "3.59.0",
+   "after": 190,
+   "releases_read": 193,
+   "with_items": 145,
+   "counts": {
+    "breaking": 7,
+    "removed": 1,
+    "deprecated": 1,
+    "minver": 2,
+    "new": 255
+   },
+   "shown": 29,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "2.0.0",
+     "2025-09-30"
+    ],
+    [
+     "3.0.0",
+     "2026-08-12"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/openai.md",
+   "bytes": 5552,
+   "untraced_dropped": 0,
+   "items": 266
+  },
+  {
+   "name": "anthropic",
+   "latest": "2.14.0",
+   "after": 129,
+   "releases_read": 130,
+   "with_items": 106,
+   "counts": {
+    "breaking": 12,
+    "removed": 1,
+    "deprecated": 5,
+    "minver": 0,
+    "new": 210
+   },
+   "shown": 36,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "1.0.0",
+     "2026-08-20"
+    ],
+    [
+     "2.0.0",
+     "2026-10-21"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/anthropic.md",
+   "bytes": 6347,
+   "untraced_dropped": 0,
+   "items": 228
+  },
+  {
+   "name": "polars",
+   "latest": "2.2.0",
+   "after": 27,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [
+    "github_releases pola-rs/polars: HTTP 403 cached"
+   ],
+   "usable": false,
+   "majors": [
+    [
+     "2.0.0",
+     "2026-10-06"
+    ]
+   ],
+   "status": "source unreachable",
+   "ecosystem": "pypi",
+   "file": "references/polars.md",
+   "bytes": 750,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "requests",
+   "latest": "2.34.2",
+   "after": 7,
+   "releases_read": 7,
+   "with_items": 3,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 2,
+    "minver": 3,
+    "new": 0
+   },
+   "shown": 5,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/requests.md",
+   "bytes": 1486,
+   "untraced_dropped": 0,
+   "items": 5
+  },
+  {
+   "name": "flask",
+   "latest": "3.1.3",
+   "after": 2,
+   "releases_read": 2,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [],
+   "usable": false,
+   "majors": [],
+   "status": "notes read, nothing matched",
+   "ecosystem": "pypi",
+   "file": "references/flask.md",
+   "bytes": 786,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "jinja2",
+   "latest": "3.1.6",
+   "after": 0,
+   "releases_read": 0,
+   "with_items": 0,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 0,
+   "problems": [],
+   "usable": false,
+   "majors": [],
+   "status": "no stable release after cut-off",
+   "ecosystem": "pypi",
+   "file": "references/jinja2.md",
+   "bytes": 493,
+   "untraced_dropped": 0,
+   "items": 0
+  },
+  {
+   "name": "werkzeug",
+   "latest": "3.1.9",
+   "after": 6,
+   "releases_read": 6,
+   "with_items": 2,
+   "counts": {
+    "breaking": 0,
+    "removed": 2,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 0
+   },
+   "shown": 2,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/werkzeug.md",
+   "bytes": 1140,
+   "untraced_dropped": 0,
+   "items": 2
+  },
+  {
+   "name": "pillow",
+   "latest": "13.0.0",
+   "after": 7,
+   "releases_read": 7,
+   "with_items": 6,
+   "counts": {
+    "breaking": 21,
+    "removed": 1,
+    "deprecated": 8,
+    "minver": 2,
+    "new": 0
+   },
+   "shown": 32,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "12.0.0",
+     "2025-10-15"
+    ],
+    [
+     "13.0.0",
+     "2026-10-16"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pillow.md",
+   "bytes": 7431,
+   "untraced_dropped": 0,
+   "items": 32
+  },
+  {
+   "name": "scipy",
+   "latest": "1.18.1",
+   "after": 8,
+   "releases_read": 8,
+   "with_items": 4,
+   "counts": {
+    "breaking": 18,
+    "removed": 19,
+    "deprecated": 22,
+    "minver": 3,
+    "new": 33
+   },
+   "shown": 64,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/scipy.md",
+   "bytes": 11859,
+   "untraced_dropped": 0,
+   "items": 95
+  },
+  {
+   "name": "starlette",
+   "latest": "1.10.0",
+   "after": 28,
+   "releases_read": 28,
+   "with_items": 14,
+   "counts": {
+    "breaking": 0,
+    "removed": 1,
+    "deprecated": 2,
+    "minver": 1,
+    "new": 24
+   },
+   "shown": 22,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "1.0.0",
+     "2026-03-22"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/starlette.md",
+   "bytes": 4166,
+   "untraced_dropped": 0,
+   "items": 28
+  },
+  {
+   "name": "uvicorn",
+   "latest": "0.54.0",
+   "after": 27,
+   "releases_read": 27,
+   "with_items": 16,
+   "counts": {
+    "breaking": 0,
+    "removed": 2,
+    "deprecated": 1,
+    "minver": 1,
+    "new": 21
+   },
+   "shown": 22,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/uvicorn.md",
+   "bytes": 3873,
+   "untraced_dropped": 0,
+   "items": 25
+  },
+  {
+   "name": "mypy",
+   "latest": "2.4.1",
+   "after": 17,
+   "releases_read": 15,
+   "with_items": 9,
+   "counts": {
+    "breaking": 0,
+    "removed": 8,
+    "deprecated": 2,
+    "minver": 3,
+    "new": 33
+   },
+   "shown": 31,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "2.0.0",
+     "2026-05-06"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/mypy.md",
+   "bytes": 5014,
+   "untraced_dropped": 0,
+   "items": 46
+  },
+  {
+   "name": "black",
+   "latest": "26.10.1",
+   "after": 10,
+   "releases_read": 10,
+   "with_items": 8,
+   "counts": {
+    "breaking": 0,
+    "removed": 3,
+    "deprecated": 0,
+    "minver": 2,
+    "new": 26
+   },
+   "shown": 23,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "26.1.0",
+     "2026-01-18"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/black.md",
+   "bytes": 4318,
+   "untraced_dropped": 0,
+   "items": 31
+  },
+  {
+   "name": "poetry",
+   "latest": "2.5.2",
+   "after": 15,
+   "releases_read": 15,
+   "with_items": 6,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 2,
+    "minver": 1,
+    "new": 29
+   },
+   "shown": 21,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/poetry.md",
+   "bytes": 3225,
+   "untraced_dropped": 0,
+   "items": 32
+  },
+  {
+   "name": "rich",
+   "latest": "15.0.0",
+   "after": 8,
+   "releases_read": 8,
+   "with_items": 3,
+   "counts": {
+    "breaking": 1,
+    "removed": 1,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 7
+   },
+   "shown": 9,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "15.0.0",
+     "2026-04-12"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/rich.md",
+   "bytes": 1812,
+   "untraced_dropped": 0,
+   "items": 9
+  },
+  {
+   "name": "typer",
+   "latest": "0.29.2",
+   "after": 42,
+   "releases_read": 42,
+   "with_items": 20,
+   "counts": {
+    "breaking": 4,
+    "removed": 2,
+    "deprecated": 0,
+    "minver": 6,
+    "new": 12
+   },
+   "shown": 24,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/typer.md",
+   "bytes": 5326,
+   "untraced_dropped": 0,
+   "items": 24
+  },
+  {
+   "name": "sqlmodel",
+   "latest": "0.0.50",
+   "after": 26,
+   "releases_read": 26,
+   "with_items": 11,
+   "counts": {
+    "breaking": 4,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 6,
+    "new": 5
+   },
+   "shown": 15,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/sqlmodel.md",
+   "bytes": 3472,
+   "untraced_dropped": 0,
+   "items": 15
+  },
+  {
+   "name": "aiohttp",
+   "latest": "3.14.5",
+   "after": 21,
+   "releases_read": 21,
+   "with_items": 9,
+   "counts": {
+    "breaking": 7,
+    "removed": 3,
+    "deprecated": 1,
+    "minver": 1,
+    "new": 21
+   },
+   "shown": 30,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/aiohttp.md",
+   "bytes": 6294,
+   "untraced_dropped": 0,
+   "items": 33
+  },
+  {
+   "name": "attrs",
+   "latest": "26.1.0",
+   "after": 2,
+   "releases_read": 2,
+   "with_items": 2,
+   "counts": {
+    "breaking": 2,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 0,
+    "new": 2
+   },
+   "shown": 4,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "26.1.0",
+     "2026-03-19"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/attrs.md",
+   "bytes": 1339,
+   "untraced_dropped": 0,
+   "items": 4
+  },
+  {
+   "name": "setuptools",
+   "latest": "84.2.1",
+   "after": 12,
+   "releases_read": 12,
+   "with_items": 6,
+   "counts": {
+    "breaking": 0,
+    "removed": 7,
+    "deprecated": 2,
+    "minver": 1,
+    "new": 7
+   },
+   "shown": 17,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "81.0.0",
+     "2026-02-06"
+    ],
+    [
+     "82.0.0",
+     "2026-02-08"
+    ],
+    [
+     "83.0.0",
+     "2026-07-04"
+    ],
+    [
+     "84.0.0",
+     "2026-08-08"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/setuptools.md",
+   "bytes": 4898,
+   "untraced_dropped": 0,
+   "items": 17
+  },
+  {
+   "name": "pip",
+   "latest": "26.3",
+   "after": 11,
+   "releases_read": 11,
+   "with_items": 6,
+   "counts": {
+    "breaking": 0,
+    "removed": 12,
+    "deprecated": 1,
+    "minver": 1,
+    "new": 49
+   },
+   "shown": 32,
+   "problems": [],
+   "usable": true,
+   "majors": [
+    [
+     "26.0",
+     "2026-01-31"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pip.md",
+   "bytes": 5096,
+   "untraced_dropped": 0,
+   "items": 63
+  },
+  {
+   "name": "celery",
+   "latest": "5.7.0",
+   "after": 5,
+   "releases_read": 4,
+   "with_items": 2,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 2,
+    "new": 1
+   },
+   "shown": 3,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/celery.md",
+   "bytes": 1307,
+   "untraced_dropped": 0,
+   "items": 3
+  },
+  {
+   "name": "playwright",
+   "latest": "1.65.2",
+   "after": 16,
+   "releases_read": 13,
+   "with_items": 13,
+   "counts": {
+    "breaking": 17,
+    "removed": 0,
+    "deprecated": 2,
+    "minver": 0,
+    "new": 54
+   },
+   "shown": 37,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/playwright.md",
+   "bytes": 8173,
+   "untraced_dropped": 0,
+   "items": 73
+  },
+  {
+   "name": "pydantic-ai",
+   "latest": "2.75.0",
+   "after": 274,
+   "releases_read": 40,
+   "with_items": 21,
+   "counts": {
+    "breaking": 7,
+    "removed": 8,
+    "deprecated": 16,
+    "minver": 2,
+    "new": 28
+   },
+   "shown": 47,
+   "problems": [
+    "github_releases pydantic/pydantic-ai: HTTP 403 cached"
+   ],
+   "usable": true,
+   "majors": [
+    [
+     "1.0.0",
+     "2025-09-05"
+    ],
+    [
+     "2.0.0",
+     "2026-06-23"
+    ]
+   ],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pydantic-ai.md",
+   "bytes": 12064,
+   "untraced_dropped": 0,
+   "items": 61
+  },
+  {
+   "name": "pytest-asyncio",
+   "latest": "1.5.0",
+   "after": 7,
+   "releases_read": 6,
+   "with_items": 6,
+   "counts": {
+    "breaking": 0,
+    "removed": 1,
+    "deprecated": 2,
+    "minver": 0,
+    "new": 12
+   },
+   "shown": 15,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/pytest-asyncio.md",
+   "bytes": 3015,
+   "untraced_dropped": 0,
+   "items": 15
+  },
+  {
+   "name": "psycopg",
+   "latest": "3.3.9",
+   "after": 14,
+   "releases_read": 14,
+   "with_items": 4,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 1,
+    "new": 9
+   },
+   "shown": 10,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/psycopg.md",
+   "bytes": 2126,
+   "untraced_dropped": 0,
+   "items": 10
+  },
+  {
+   "name": "marshmallow",
+   "latest": "4.4.0",
+   "after": 13,
+   "releases_read": 13,
+   "with_items": 4,
+   "counts": {
+    "breaking": 0,
+    "removed": 0,
+    "deprecated": 0,
+    "minver": 2,
+    "new": 4
+   },
+   "shown": 6,
+   "problems": [],
+   "usable": true,
+   "majors": [],
+   "status": "items",
+   "ecosystem": "pypi",
+   "file": "references/marshmallow.md",
+   "bytes": 1799,
+   "untraced_dropped": 0,
+   "items": 6
+  }
+ ]
+}

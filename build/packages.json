@@ -1,0 +1,926 @@
+{
+ "cutoff": "2025-06-01",
+ "packages": [
+  {
+   "name": "react",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/facebook/react/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "next",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/vercel/next.js/canary/docs/01-app/02-guides/upgrading/version-{major}.mdx",
+     "format": "md",
+     "default": "breaking"
+    },
+    {
+     "kind": "github_releases",
+     "repo": "vercel/next.js"
+    }
+   ]
+  },
+  {
+   "name": "vite",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/vitejs/vite/main/packages/vite/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "typescript",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/microsoft/TypeScript-Website/v2/packages/documentation/copy/en/release-notes/TypeScript {mm}.md",
+     "format": "md",
+     "default": "new"
+    },
+    {
+     "kind": "github_releases",
+     "repo": "microsoft/TypeScript"
+    }
+   ]
+  },
+  {
+   "name": "eslint",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/eslint/eslint/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "tailwindcss",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/tailwindlabs/tailwindcss/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "express",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/expressjs/express/master/History.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "zod",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "github_releases",
+     "repo": "colinhacks/zod"
+    }
+   ]
+  },
+  {
+   "name": "prisma",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "github_releases",
+     "repo": "prisma/prisma"
+    }
+   ]
+  },
+  {
+   "name": "vitest",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "github_releases",
+     "repo": "vitest-dev/vitest"
+    }
+   ]
+  },
+  {
+   "name": "playwright",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/release-notes-js.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "axios",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/axios/axios/v1.x/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "vue",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/vuejs/core/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "svelte",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/sveltejs/svelte/main/packages/svelte/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "@sveltejs/kit",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/sveltejs/kit/main/packages/kit/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "astro",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/withastro/astro/main/packages/astro/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "webpack",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/webpack/webpack/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "rollup",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/rollup/rollup/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "esbuild",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/evanw/esbuild/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "jest",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/jestjs/jest/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "prettier",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/prettier/prettier/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ],
+   "aliases": [
+    "Prettier"
+   ]
+  },
+  {
+   "name": "@tanstack/react-query",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/TanStack/query/main/packages/react-query/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "react-router",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/remix-run/react-router/main/packages/react-router/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "ai",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/vercel/ai/main/packages/ai/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "openai",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/openai/openai-node/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "@anthropic-ai/sdk",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/anthropics/anthropic-sdk-typescript/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "storybook",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/storybookjs/storybook/next/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "mongoose",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/Automattic/mongoose/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "puppeteer",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/puppeteer/puppeteer/main/packages/puppeteer/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "typescript-eslint",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/typescript-eslint/typescript-eslint/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "@biomejs/biome",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/biomejs/biome/main/packages/@biomejs/biome/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "commander",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/tj/commander.js/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "stripe",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/stripe/stripe-node/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "@angular/core",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/angular/angular/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ],
+   "aliases": [
+    "angular"
+   ]
+  },
+  {
+   "name": "postcss",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/postcss/postcss/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "wrangler",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "langchain",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/langchain-ai/langchainjs/main/libs/langchain/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "@langchain/core",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/langchain-ai/langchainjs/main/libs/langchain-core/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "@supabase/supabase-js",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/supabase/supabase-js/master/packages/core/supabase-js/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "drizzle-orm",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/drizzle-team/drizzle-orm/main/changelogs/drizzle-orm/{version}.md",
+     "format": "md",
+     "default": "new"
+    },
+    {
+     "kind": "github_releases",
+     "repo": "drizzle-team/drizzle-orm"
+    }
+   ]
+  },
+  {
+   "name": "hono",
+   "ecosystem": "npm",
+   "sources": [
+    {
+     "kind": "github_releases",
+     "repo": "honojs/hono"
+    }
+   ]
+  },
+  {
+   "name": "pandas",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/pandas-dev/pandas/main/doc/source/whatsnew/v{version}.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "numpy",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/numpy/numpy/main/doc/source/release/{version}-notes.rst",
+     "format": "rst"
+    }
+   ],
+   "aliases": [
+    "NumPy"
+   ]
+  },
+  {
+   "name": "pydantic",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pydantic/pydantic/main/HISTORY.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "fastapi",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/fastapi/fastapi/master/docs/en/docs/release-notes.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "django",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/django/django/main/docs/releases/{version}.txt",
+     "format": "rst"
+    }
+   ],
+   "aliases": [
+    "Django"
+   ]
+  },
+  {
+   "name": "sqlalchemy",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/doc/build/changelog/changelog_21.rst",
+     "format": "rst"
+    },
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/sqlalchemy/sqlalchemy/main/doc/build/changelog/changelog_20.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "httpx",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/encode/httpx/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "pytest",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pytest-dev/pytest/main/doc/en/changelog.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "ruff",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/astral-sh/ruff/main/CHANGELOG.md",
+     "format": "md"
+    },
+    {
+     "kind": "github_releases",
+     "repo": "astral-sh/ruff"
+    }
+   ]
+  },
+  {
+   "name": "uv",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/astral-sh/uv/main/CHANGELOG.md",
+     "format": "md"
+    },
+    {
+     "kind": "github_releases",
+     "repo": "astral-sh/uv"
+    }
+   ]
+  },
+  {
+   "name": "langchain",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "github_releases",
+     "repo": "langchain-ai/langchain",
+     "tag_prefix": "langchain=="
+    }
+   ]
+  },
+  {
+   "name": "openai",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/openai/openai-python/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "anthropic",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "polars",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "github_releases",
+     "repo": "pola-rs/polars",
+     "tag_prefix": "py-"
+    }
+   ]
+  },
+  {
+   "name": "requests",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/psf/requests/main/HISTORY.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "flask",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pallets/flask/main/CHANGES.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "jinja2",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pallets/jinja/main/CHANGES.rst",
+     "format": "rst"
+    }
+   ],
+   "aliases": [
+    "jinja"
+   ]
+  },
+  {
+   "name": "werkzeug",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pallets/werkzeug/main/CHANGES.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "pillow",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/python-pillow/Pillow/main/docs/releasenotes/{version}.rst",
+     "format": "rst"
+    }
+   ],
+   "aliases": [
+    "Pillow"
+   ]
+  },
+  {
+   "name": "scipy",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "per_version",
+     "url": "https://raw.githubusercontent.com/scipy/scipy/main/doc/source/release/{version}-notes.rst",
+     "format": "rst"
+    }
+   ],
+   "aliases": [
+    "SciPy"
+   ]
+  },
+  {
+   "name": "starlette",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/Kludex/starlette/main/docs/release-notes.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "uvicorn",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/Kludex/uvicorn/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "mypy",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/python/mypy/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "black",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/psf/black/main/CHANGES.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "poetry",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/python-poetry/poetry/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "rich",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/Textualize/rich/master/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "typer",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/fastapi/typer/master/docs/release-notes.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "sqlmodel",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/fastapi/sqlmodel/main/docs/release-notes.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "aiohttp",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/aio-libs/aiohttp/master/CHANGES.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "attrs",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/python-attrs/attrs/main/CHANGELOG.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "setuptools",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pypa/setuptools/main/NEWS.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "pip",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pypa/pip/main/NEWS.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "celery",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/celery/celery/main/Changelog.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "playwright",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/microsoft/playwright/main/docs/src/release-notes-python.md",
+     "format": "md"
+    }
+   ]
+  },
+  {
+   "name": "pydantic-ai",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/main/docs/changelog.md",
+     "format": "md"
+    },
+    {
+     "kind": "github_releases",
+     "repo": "pydantic/pydantic-ai"
+    }
+   ]
+  },
+  {
+   "name": "pytest-asyncio",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/pytest-dev/pytest-asyncio/main/docs/reference/changelog.rst",
+     "format": "rst"
+    }
+   ]
+  },
+  {
+   "name": "psycopg",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/psycopg/psycopg/master/docs/news.rst",
+     "format": "rst"
+    }
+   ],
+   "aliases": [
+    "Psycopg"
+   ]
+  },
+  {
+   "name": "marshmallow",
+   "ecosystem": "pypi",
+   "sources": [
+    {
+     "kind": "changelog",
+     "url": "https://raw.githubusercontent.com/marshmallow-code/marshmallow/dev/CHANGELOG.rst",
+     "format": "rst"
+    }
+   ]
+  }
+ ]
+}
