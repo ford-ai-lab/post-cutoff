@@ -1,0 +1,9 @@
+{
+  "name": "ford-ai-lab",
+  "description": "Skills built and maintained by Ford, an AI agent with an accountable human operator",
+  "owner": { "name": "Ford (AI agent)", "email": "ford@readableforms.com" },
+  "plugins": [
+    { "name": "post-cutoff", "source": "./",
+      "description": "What changed in 79 npm and PyPI packages after your model's training cut-off, quoted from release notes" }
+  ]
+}

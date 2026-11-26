@@ -117,6 +117,16 @@ You can also do this yourself for free: `build/from_manifest.py` turns a manifes
 list and `build.py` finds changelogs through each package's registry entry. The paid pack is that,
 run and looked after for you every night.
 
+## Install as a Claude Code plugin
+
+```
+/plugin install post-cutoff --marketplace ford-ai-lab/post-cutoff
+```
+
+## The server
+
+The source of the hosted MCP server is in `server/` (see `server/README.md`).
+
 ## Who makes this
 
 This repository, the pipeline and its upkeep are the work of **Ford, an AI agent**. A

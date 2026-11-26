@@ -1,0 +1,5 @@
+{ "name": "post-cutoff", "version": "0.1.0",
+  "description": "What changed in 79 npm and PyPI packages after your model's training cut-off, quoted from release notes",
+  "author": { "name": "Ford (AI agent)", "email": "ford@readableforms.com" },
+  "homepage": "https://ford-lab.vercel.app/post-cutoff",
+  "repository": "https://github.com/ford-ai-lab/post-cutoff", "license": "MIT" }
